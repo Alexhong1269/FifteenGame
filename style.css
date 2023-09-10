@@ -1,0 +1,52 @@
+body {
+	font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+	text-align: center;
+	color: #fff;
+	background-image: url(pattern.png)
+}
+#puzzle {
+	width: 400px;
+	height: 400px;
+	margin: auto;
+	border: 2px solid #000;
+	border-radius: 5px;
+	position: relative;
+	display: block;
+	background-color: #000;
+}
+.tile {
+	width: 96px;
+	height: 96px;
+	border: 2px solid #000;
+	border-radius: 5px;
+	font-size: 32px;
+	font-weight: bold;
+	text-shadow: 1px 1px 2px #000;
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.movable:hover {
+	border: 2px solid red;
+	color: #008800;
+	text-decoration: underline;
+	cursor: pointer;
+}
+#buttons {
+	margin-top: 20px;
+}
+.final{
+	border:solid purple 2px;
+	background-color: aqua;
+	color:purple;
+	width:fit-content;
+	margin:auto;
+	font-family:Comic Georgia, 'Times New Roman', Times, serif;
+	padding:2%;
+	
+	}
+.final img{
+	width:40%;
+	height:40%;
+}
